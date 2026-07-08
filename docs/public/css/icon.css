@@ -1,0 +1,187 @@
+i.i_func_30 {
+    background: url("/images1/icon/func_30.svg") no-repeat center;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+i.i_func_30_blue {
+    background: url("/images1/icon/func_30_blue.svg") no-repeat center;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+i.i_func_30_1 {
+    background: url("/images1/icon/func_30_1.svg") no-repeat center;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+i.i_func_30_2 {
+    background: url("/images1/icon/func_30_2.svg") no-repeat center;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+i.i_func_30_3 {
+    background: url("/images1/icon/func_30_3.svg") no-repeat center;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+i.i_func_30_4 {
+    background: url("/images1/icon/func_30_4.svg") no-repeat center;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+i.i_func_30_5 {
+    background: url("/images1/icon/func_30_5.svg") no-repeat center;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+i.i_func_30_6 {
+    background: url("/images1/icon/func_30_6.svg") no-repeat center;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+i.i_func_30_bg {
+    background: url("/images1/icon/func_30_bg.svg") no-repeat center;
+    width: 144px;
+    height: 71px;
+    display: inline-block;
+    position: absolute;
+    left: 80px;
+    top: 0;
+}
+i.i_func_30_bg_1 {
+    background: url("/images1/icon/func_30_bg1.svg") no-repeat center;
+    width: 144px;
+    height: 71px;
+    display: inline-block;
+    position: absolute;
+    left: 80px;
+    top: 0;
+}
+i.i_func_30_bg_2 {
+    background: url("/images1/icon/func_30_bg2.svg") no-repeat center;
+    width: 144px;
+    height: 71px;
+    display: inline-block;
+    position: absolute;
+    left: 80px;
+    top: 0;
+}
+i.i_func_30_bg_3 {
+    background: url("/images1/icon/func_30_bg3.svg") no-repeat center;
+    width: 144px;
+    height: 71px;
+    display: inline-block;
+    position: absolute;
+    left: 80px;
+    top: 0;
+}
+i.i_func_30_bg_5 {
+    background: url("/images1/icon/func_30_bg5.svg") no-repeat center;
+    width: 144px;
+    height: 71px;
+    display: inline-block;
+    position: absolute;
+    left: 80px;
+    top: 0;
+}
+i.i_func_30_bg_6 {
+    background: url("/images1/icon/func_30_bg6.svg") no-repeat center;
+    width: 144px;
+    height: 71px;
+    display: inline-block;
+    position: absolute;
+    left: 80px;
+    top: 0;
+}
+i.i_arrow_orange {
+    background: url("/images1/icon/arrow_orange.svg") no-repeat center;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+i.i_arrow_blue {
+    background: url("/images1/icon/arrow_blue.svg") no-repeat center;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+i.i_arrow_red {
+    background: url("/images1/icon/arrow_red.svg") no-repeat center;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+i.i_arrow_purple {
+    background: url("/images1/icon/arrow_purple.svg") no-repeat center;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+i.i_arrow_pink {
+    background: url("/images1/icon/arrow_pink.svg") no-repeat center;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+i.i_arrow_green {
+    background: url("/images1/icon/arrow_green.svg") no-repeat center;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+i.i_func_account {
+    background: url("/images1/icon/func_account.svg") no-repeat center;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+i.func_account_blue {
+    background: url("/images1/icon/func_account_blue.svg") no-repeat center;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+i.i_func_sum {
+    background: url("/images1/icon/func_sum.svg") no-repeat center;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+i.i_func_account_bg {
+    background: url("/images1/icon/func_30_bg2.svg") no-repeat center;
+    width: 144px;
+    height: 71px;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+i.i_func_data_bg {
+    background: url("/images1/icon/func_30_bg.svg") no-repeat center;
+    width: 288px;
+    height: 142px;
+    background-size: contain;
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+    bottom: 15px;
+}
+i.i_datacheck {
+    background: url("/images1/icon/warning_bell.svg") no-repeat center;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    background-size: contain;
+    flex-shrink: 0;
+    align-self: center;
+}
