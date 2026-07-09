@@ -14,10 +14,13 @@ export default defineConfig({
     },
   },
   themeConfig: {
+    lastUpdated: {
+      text: '最后更新于'
+    },
     // https://vitepress.dev/reference/default-theme-config
     editLink: {
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
-      text: 'Edit this page on GitHub'
+      pattern: 'https://github.com/Mbear17/HQ-comp/edit/main/docs/:path',
+      text: '在 GitHub 上编辑此页面'
     },
     nav: [
       { text: '首页', link: '/' },
