@@ -24,11 +24,16 @@ export default defineConfig({
     },
     nav: [
       { text: '首页', link: '/' },
+      { text: '资源',
+        items: [
+          { text: '图标集合', link: '/comp/icon' }
+        ]
+      },
       { text: '组件',
         items: [
-          { text: '按功能查询', link: '/comp/func_index' },
-          { text: '积木组件', link: '/comp/block_index' },
-          { text: '通用组件', link: '/comp/public_index' },
+          { text: '按功能查询', link: '/comp/expense_apply_travel' },
+          { text: '积木组件', link: '/comp/block/ins-def-1001' },
+          { text: '通用组件', link: '/comp/block/cpt-upload' },
         ]
       }
     ],
@@ -44,16 +49,13 @@ export default defineConfig({
         {
           text: '按功能查询',
           // collapsed: true,
-          link: '/comp/func_index',
           items: [
-            { text: '一事一表', link: '/comp/expense_apply_Inspect' },
             { text: '智能差旅', link: '/comp/expense_apply_travel' }
           ]
         },
         {
           text: '积木组件',
           // collapsed: true,
-          link: '/comp/block_index',
           items: [
             { text: 'ins-def-1001 票据信息', link: '/comp/block/ins-def-1001' },
             { text: 'ins-def-1012 多文件上传', link: '/comp/block/ins-def-1012' },
@@ -67,14 +69,12 @@ export default defineConfig({
             { text: 'ins-def-3005 选择订单（携程）', link: '/comp/block/ins-def-3005' },
             { text: 'ins-def-3006 选择订单（高德）', link: '/comp/block/ins-def-3006' },
             { text: 'ins-def-4001 选择到款信息', link: '/comp/block/ins-def-4001' },
-            { text: 'ins-def-4002 合同与待核销发票', link: '/comp/block/ins-def-4002' },
-            { text: 'ins-def-4003 城市间交通（预留）', link: '/comp/block/ins-def-4003' }
+            { text: 'ins-def-4002 合同与待核销发票', link: '/comp/block/ins-def-4002' }
           ]
         },
         {
           text: '通用组件',
           // collapsed: true,
-          link: '/comp/public_index',
           items: [
             { text: 'cpt-upload 附件上传', link: '/comp/block/cpt-upload' },
             { text: 'datacheck-alert 数据检测提示', link: '/comp/block/datacheck-alert' }
