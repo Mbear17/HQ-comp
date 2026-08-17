@@ -4,16 +4,6 @@
 此组件用于管理城市间交通行程信息，支持交通行程的添加、编辑、删除等操作。常用于差旅报销流程中。
 :::
 
-## 在线演示
-
-<DemoInsDef3002 />
-
-## 组件属性
-
-| 属性名 | 类型 | 默认值 | 说明 |
-| :--- | :--- | :--- | :--- |
-| `datacheck_msg` | String | `''` | 数据检测提示信息 |
-
 ## 功能特性
 
 - 支持交通行程列表展示
@@ -23,36 +13,3 @@
 - 支持同行人员行合并显示
 - 支持合计金额自动计算
 - 支持交通工具和舱位等级联动
-
-## 使用示例
-
-```vue
-<template>
-  <ins-def-3002 />
-</template>
-```
-
-## 接口调用
-
-```js
-// 加载交通行程列表
-axios({
-    method: 'post',
-    url: '/ExpenseApplyUTravelV2',
-    data: { ajax: true, act: 'traffic_load' },
-})
-
-// 保存交通行程
-axios({
-    method: 'post',
-    url: '/ExpenseApplyUTravelV2',
-    data: { ajax: true, act: 'traffic_editsave', ord: row.ord, formDatas: JSON.stringify(row) },
-})
-
-// 删除交通行程
-axios({
-    method: 'post',
-    url: '/ExpenseApplyUTravelV2',
-    data: { ajax: true, act: 'traffic_delete', ord: row.ord },
-})
-```

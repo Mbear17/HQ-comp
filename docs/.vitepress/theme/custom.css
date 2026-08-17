@@ -1,0 +1,9 @@
+.vp-doc table {
+    width: 100% !important;
+}
+.vp-doc > div {
+    overflow-x: auto;
+}
+.vp-doc table {
+    display: table;
+}

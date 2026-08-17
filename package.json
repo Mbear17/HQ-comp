@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.2",
-    "element-plus": "^2.14.2"
+    "element-plus": "^2.14.2",
+    "vitepress-plugin-image-viewer": "^1.1.6"
   }
 }
