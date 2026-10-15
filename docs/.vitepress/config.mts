@@ -24,6 +24,7 @@ export default defineConfig({
     },
     nav: [
       { text: '首页', link: '/' },
+      { text: '指南', link: '/guide/' },
       { text: '资源',
         items: [
           { text: '图标集合', link: '/comp/icon' }
@@ -39,6 +40,14 @@ export default defineConfig({
     ],
 
     sidebar: {
+      '/guide/': [
+        {
+          text: '指南',
+          items: [
+            { text: '如何运行项目？', link: '/guide/' }
+          ]
+        }
+      ],
       '/comp/': [
         {
           text: '资源',
@@ -68,14 +77,19 @@ export default defineConfig({
             { text: 'ins-def-3004 其他差旅杂费', link: '/comp/block/ins-def-3004' },
             { text: 'ins-def-3005 选择订单（携程）', link: '/comp/block/ins-def-3005' },
             { text: 'ins-def-3006 选择订单（高德）', link: '/comp/block/ins-def-3006' },
+            { text: 'ins-def-3007 国际差旅报销', link: '/comp/block/ins-def-3007' },
             { text: 'ins-def-4001 选择到款信息', link: '/comp/block/ins-def-4001' },
-            { text: 'ins-def-4002 合同与待核销发票', link: '/comp/block/ins-def-4002' }
+            { text: 'ins-def-4002 合同与待核销发票', link: '/comp/block/ins-def-4002' },
+            { text: 'ins-def-4003 城市间交通（预留）', link: '/comp/block/ins-def-4003' },
+            { text: 'ins-def-4101 选择开票内容', link: '/comp/block/ins-def-4101' },
+            { text: 'ins-def-4102 填写开票信息', link: '/comp/block/ins-def-4102' }
           ]
         },
         {
           text: '通用组件',
           // collapsed: true,
           items: [
+            { text: 'expense-apply-fund 选经费卡', link: '/comp/block/expense-apply-fund' },
             { text: 'cpt-upload 附件上传', link: '/comp/block/cpt-upload' },
             { text: 'datacheck-alert 数据检测提示', link: '/comp/block/datacheck-alert' }
           ]

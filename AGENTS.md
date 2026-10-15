@@ -21,7 +21,7 @@ No lint, typecheck, or test scripts exist.
 - All content is in **Chinese (zh-CN)**
 - Component docs follow a pattern: title, tip block explaining dev URL, deployed schools table, framework API calls, module list table linking to block sub-pages
 - Dev URLs use `WebRoot/saap/` prefix for component paths
-- VitePress `base: '/dist/'` — site is deployed under `/dist/` subdirectory
+- VitePress `base: '/HQ-comp/'` — site is deployed under `/HQ-comp/` subdirectory
 
 ## Adding Documentation
 1. Create `.md` file in appropriate `docs/comp/` subdirectory
@@ -31,5 +31,5 @@ No lint, typecheck, or test scripts exist.
 
 ## Gotchas
 - Build output (`docs/.vitepress/dist/`) is tracked — rebuild after content changes
-- No git repo initialized — no pre-commit hooks or CI
+- Git repo initialized (GitHub: Mbear17/HQ-comp) — no pre-commit hooks or CI
 - VitePress version is alpha (`^2.0.0-alpha.16`)
